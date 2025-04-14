@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Photos & Videos - Hajj Guide</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="banner">
+    <h1 data-en="Photos & Videos" data-ur="تصاویر اور ویڈیوز" data-ar="الصور ومقاطع الفيديو">Photos & Videos</h1>
+    <select id="languageSwitcher">
+      <option value="en">English</option>
+      <option value="ur">اردو</option>
+      <option value="ar">العربية</option>
+    </select>
+  </header>
+
+  <main class="content">
+    <section>
+      <h2 data-en="Photo Gallery" data-ur="تصویری گیلری" data-ar="معرض الصور">Photo Gallery</h2>
+      <div class="gallery">
+        <img src="images/hajj1.jpg" alt="Hajj 1" />
+        <img src="images/hajj2.jpg" alt="Hajj 2" />
+        <img src="images/hajj3.jpg" alt="Hajj 3" />
+        <!-- Add more images as needed -->
+      </div>
+    </section>
+
+    <section>
+      <h2 data-en="Video Highlights" data-ur="ویڈیو جھلکیاں" data-ar="مقاطع الفيديو المميزة">Video Highlights</h2>
+      <div class="videos">
+        <video controls width="100%">
+          <source src="videos/hajj_intro.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <video controls width="100%">
+          <source src="videos/hajj_walkthrough.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+        <!-- Add more videos as needed -->
+      </div>
+    </section>
+
+    <a href="index.html" class="back-link" data-en="← Back to Home" data-ur="← واپس ہوم" data-ar="← الرجوع إلى الصفحة الرئيسية">← Back to Home</a>
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 Hajj Guide</p>
+  </footer>
+</body>
+</html>
